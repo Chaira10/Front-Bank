@@ -1,0 +1,95 @@
+.bg-secondary {
+    background-color: #E0E6ED;
+    /* margin-top: 20px; */
+}
+
+.edit-button {
+    padding: 5px 25px;
+    border: 1px solid #6458F5;
+    color: #6458F5;
+    margin-right: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.text-dark {
+    color: black;
+    padding-top: 21px;
+    
+}
+
+.prenom {
+    padding: 11px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.nom {
+    padding: 11px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 20px;
+}
+
+.save-button {
+    padding: 5px 25px;
+    border: 1px solid #6458F5;
+    color: #6458F5;
+    margin-right: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.cancel-button {
+    padding: 5px 25px;
+    border: 1px solid #6458F5;
+    color: #6458F5;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 20px;
+}
+
+.account {
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 2px 2px #888888;
+
+}
+
+.account-content-wrapper {
+    width: 85% !important;
+}
+
+.cta {
+    width: 15% !important;
+}
+
+.transaction-button {
+    padding: 11px 5px;
+    border: 1px solid #6458F5;
+    color: white;
+    background-color: #6458F5;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #888888;
+
+}
+
+.transaction-button:hover {
+    transform: scale(1.1);
+}
