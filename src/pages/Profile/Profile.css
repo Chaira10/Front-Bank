@@ -10,6 +10,13 @@
     margin-right: 15px;
     background-color: white;
     border-radius: 5px;
+    box-shadow: 2px 2px 2px #888888;
+    cursor: pointer;
+
+}
+
+.edit-button:hover {
+    transform: scale(1.1);
 }
 
 .text-dark {
@@ -45,6 +52,12 @@
     margin-right: 15px;
     background-color: white;
     border-radius: 5px;
+    box-shadow: 2px 2px 2px #888888;
+    cursor: pointer;
+}
+
+.save-button:hover {
+    transform: scale(1.1);
 }
 
 .cancel-button {
@@ -53,6 +66,12 @@
     color: #6458F5;
     background-color: white;
     border-radius: 5px;
+    box-shadow: 2px 2px 2px #888888;
+    cursor: pointer;
+}
+
+.cancel-button:hover {
+    transform: scale(1.1);
 }
 
 .btn-container {

@@ -2,15 +2,20 @@ import { NavLink, useLocation } from 'react-router-dom';
 import './Navbar.css';
 import { useSelector} from 'react-redux';
 import  LogoutButton  from '../Logout/LogoutButton';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faCircleUser}  from "@fortawesome/free-solid-svg-icons";
 
-
+// Définition de la fonction Navbar
 function Navbar() {
-  
+  // Obtention de l'objet location pour connaître le chemin actuel
   const location = useLocation();
+  // Utilisation du hook useSelector pour accéder à la propriété firstName du state Redux
   const firstname = useSelector(state => state.data.firstName);
-  console.log(firstname);
+  // console.log(firstname);
+  // Rendu JSX du composant Navbar
   return (
     <nav className="main-nav">
+    {/* Logo et lien vers la page d'accueil */}
       <NavLink className="main-nav-logo" to="/">
         <img
           className="main-nav-logo-image"
@@ -23,35 +28,34 @@ function Navbar() {
       {/* Condition pour afficher différemment en fonction de l'URL */}
       {location.pathname === '/login' ? (
         <div>
+        {/* Lien vers la page de connexion */}
           <NavLink className="main-nav-item" to="/login">
-            <i className="fa fa-user-circle"></i>
+          <FontAwesomeIcon icon={faCircleUser} />
             Sign In
           </NavLink>
         </div>
       ) : location.pathname === '/profile' ? (
         <div>
-          {/* Ajoute le prénom du user ici (remplace par la variable appropriée) */}
+          {/* Affichage du nom de l'utilisateur et bouton de déconnexion sur la page de profil */}
           <span className="main-nav-item">
-            <i className="fa fa-user-circle"></i>
+          <FontAwesomeIcon icon={faCircleUser} />
             <span> {firstname} </span>
           </span>
-          
           <LogoutButton />
         </div>
       ) : location.pathname.startsWith('/account-details/') ? (
         <div>
-          {/* Utilisez dispatch pour mettre à jour le prénom en fonction des données utilisateur */}
+          {/* Affichage du nom de l'utilisateur et bouton de déconnexion sur la page des détails du compte */}
           <span className="main-nav-item">
-            <i className="fa fa-user-circle"></i>
+          <FontAwesomeIcon icon={faCircleUser} />
             <span> {firstname} </span>
           </span>
-          
-          {/* Utilisez le composant LogoutButton pour implémenter la déconnexion */}
           <LogoutButton />
         </div>) : (
         <div>
+        {/* Lien vers la page de connexion pour les autres pages */}
           <NavLink className="main-nav-item" to="/login">
-            <i className="fa fa-user-circle"></i>
+          <FontAwesomeIcon icon={faCircleUser} />
             Sign In
           </NavLink>
         </div>
@@ -59,5 +63,5 @@ function Navbar() {
     </nav>
   );
 }
-
+// Exportation du composant Navbar 
 export default Navbar;

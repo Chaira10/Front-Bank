@@ -17,10 +17,11 @@
   .main-nav-item {
     text-decoration: none;
     margin-right: 0.5rem;
+    align-items: center;
   }
   
   .main-nav-item:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
   }
   
   .main-nav-logo {
@@ -31,4 +32,9 @@
   .main-nav-logo-image {
     max-width: 100%;
     width: 200px;
+  }
+
+  .fa-circle-user {
+    font-size: 1.5rem;
+    color: lightgray;
   }

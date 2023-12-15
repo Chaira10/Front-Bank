@@ -1,7 +1,7 @@
 {
   "accountDetails": [
     {
-      "user_id": "6568ca4f4c6092001e4cf0fe",
+      "user_id": "655f15d9e73e2e5210f67533",
       "account_id_checking": "1234ca4f4c6103245e4cf0fe",
       "account_checking_name": "Argent Bank Checking (x8349)",
       "checking_balance":"$2,082.79", 
@@ -15,10 +15,10 @@
         {
           "detail_id": 1,
           "account_parent_id": "1234ca4f4c6103245e4cf0fe", 
-          "amount": "$2,082.79",
+          "amount": "$5",
           "date": "2023-01-01",
           "description": "Payment",
-          "balance": "$5,000.00",
+          "balance": "$2082.79",
           "type": "Electronic",
           "category": "Food",
           "note": ""
@@ -26,10 +26,10 @@
         {
           "detail_id": 2,
           "account_parent_id": "9564ca4f4c5724545e4cf0fe", 
-          "amount": "$2,082.79",
+          "amount": "$10",
           "date": "2023-01-01",
           "description": "Payment",
-          "balance": "$5,000.00",
+          "balance": "$184.30",
           "type": "Electronic",
           "category": "Food",
           "note": ""
@@ -37,10 +37,10 @@
         {
           "detail_id": 3,
           "account_parent_id": "5678ca4f4c6234578e4cf0fe", 
-          "amount": "$2,082.79",
+          "amount": "$20",
           "date": "2023-01-01",
           "description": "Payment",
-          "balance": "$5,000.00",
+          "balance": "$10928.42",
           "type": "Electronic",
           "category": "Food",
           "note": ""
@@ -48,10 +48,10 @@
         {
           "detail_id": 4,
           "account_parent_id": "1234ca4f4c6103245e4cf0fe", 
-          "amount": "$2,082.79",
+          "amount": "$30",
           "date": "2023-01-01",
           "description": "Payment",
-          "balance": "$5,000.00",
+          "balance": "$2117.79",
           "type": "Electronic",
           "category": "Food",
           "note": ""
@@ -59,10 +59,10 @@
         {
           "detail_id": 5,
           "account_parent_id": "1234ca4f4c6103245e4cf0fe", 
-          "amount": "$2,082.79",
+          "amount": "$40",
           "date": "2023-01-01",
           "description": "Payment",
-          "balance": "$5,000.00",
+          "balance": "$2147.79",
           "type": "Electronic",
           "category": "Food",
           "note": ""
@@ -70,10 +70,10 @@
         {
           "detail_id": 6,
           "account_parent_id": "9564ca4f4c5724545e4cf0fe", 
-          "amount": "$2,082.79",
+          "amount": "$50",
           "date": "2023-01-01",
           "description": "Payment",
-          "balance": "$5,000.00",
+          "balance": "$134.30",
           "type": "Electronic",
           "category": "Food",
           "note": ""
@@ -81,10 +81,10 @@
         {
           "detail_id": 7,
           "account_parent_id": "9564ca4f4c5724545e4cf0fe", 
-          "amount": "$2,082.79",
+          "amount": "$10",
           "date": "2023-01-01",
           "description": "Payment",
-          "balance": "$5,000.00",
+          "balance": "$124.30",
           "type": "Electronic",
           "category": "Food",
           "note": ""
@@ -92,10 +92,10 @@
         {
           "detail_id": 8,
           "account_parent_id": "5678ca4f4c6234578e4cf0fe", 
-          "amount": "$2,082.79",
+          "amount": "$30",
           "date": "2023-01-01",
           "description": "Payment",
-          "balance": "$5,000.00",
+          "balance": "$10898.42",
           "type": "Electronic",
           "category": "Food",
           "note": ""
@@ -103,10 +103,175 @@
         {
           "detail_id": 9,
           "account_parent_id": "5678ca4f4c6234578e4cf0fe", 
-          "amount": "$2,082.79",
+          "amount": "$10",
           "date": "2023-01-01",
           "description": "Payment",
-          "balance": "$5,000.00",
+          "balance": "$10878.42",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 10,
+          "account_parent_id": "1234ca4f4c6103245e4cf0fe", 
+          "amount": "$5",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$2082.79",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 11,
+          "account_parent_id": "9564ca4f4c5724545e4cf0fe", 
+          "amount": "$10",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$184.30",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 12,
+          "account_parent_id": "5678ca4f4c6234578e4cf0fe", 
+          "amount": "$20",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$10928.42",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 13,
+          "account_parent_id": "1234ca4f4c6103245e4cf0fe", 
+          "amount": "$5",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$2082.79",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 14,
+          "account_parent_id": "9564ca4f4c5724545e4cf0fe", 
+          "amount": "$10",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$184.30",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 15,
+          "account_parent_id": "5678ca4f4c6234578e4cf0fe", 
+          "amount": "$20",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$10928.42",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 16,
+          "account_parent_id": "1234ca4f4c6103245e4cf0fe", 
+          "amount": "$5",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$2082.79",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 17,
+          "account_parent_id": "9564ca4f4c5724545e4cf0fe", 
+          "amount": "$10",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$184.30",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 18,
+          "account_parent_id": "5678ca4f4c6234578e4cf0fe", 
+          "amount": "$20",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$10928.42",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 19,
+          "account_parent_id": "1234ca4f4c6103245e4cf0fe", 
+          "amount": "$5",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$2082.79",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 20,
+          "account_parent_id": "9564ca4f4c5724545e4cf0fe", 
+          "amount": "$10",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$184.30",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 21,
+          "account_parent_id": "5678ca4f4c6234578e4cf0fe", 
+          "amount": "$20",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$10928.42",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 22,
+          "account_parent_id": "1234ca4f4c6103245e4cf0fe", 
+          "amount": "$5",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$2082.79",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 23,
+          "account_parent_id": "9564ca4f4c5724545e4cf0fe", 
+          "amount": "$10",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$184.30",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 24,
+          "account_parent_id": "5678ca4f4c6234578e4cf0fe", 
+          "amount": "$20",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$10928.42",
           "type": "Electronic",
           "category": "Food",
           "note": ""
@@ -114,7 +279,7 @@
       ]
     },
     {
-      "user_id": "6568ca4f4c6092001e4cf0fd",
+      "user_id": "655f15d9e73e2e5210f67534",
       "account_id_checking": "1234ca4f4c6102145e4cf0fe",
       "account_checking_name": "Argent Bank Checking (x8349)",
       "checking_balance":"$2,082.79", 
@@ -128,10 +293,10 @@
         {
           "detail_id": 1,
           "account_parent_id": "1234ca4f4c6102145e4cf0fe", 
-          "amount": "$2,082.79",
+          "amount": "$5",
           "date": "2023-01-01",
           "description": "Payment",
-          "balance": "$5,000.00",
+          "balance": "$2082.79",
           "type": "Electronic",
           "category": "Food",
           "note": ""
@@ -139,10 +304,10 @@
         {
           "detail_id": 2,
           "account_parent_id": "5678ca4f4c6234565e4cf0fe", 
-          "amount": "$2,082.79",
+          "amount": "$10",
           "date": "2023-01-01",
           "description": "Payment",
-          "balance": "$5,000.00",
+          "balance": "$184.30",
           "type": "Electronic",
           "category": "Food",
           "note": ""
@@ -150,10 +315,10 @@
         {
           "detail_id": 3,
           "account_parent_id": "9564ca4f4c5724325e4cf0fe", 
-          "amount": "$2,082.79",
+          "amount": "$20",
           "date": "2023-01-01",
           "description": "Payment",
-          "balance": "$5,000.00",
+          "balance": "$10928.42",
           "type": "Electronic",
           "category": "Food",
           "note": ""
@@ -161,10 +326,10 @@
         {
           "detail_id": 4,
           "account_parent_id": "1234ca4f4c6102145e4cf0fe", 
-          "amount": "$2,082.79",
+          "amount": "$30",
           "date": "2023-01-01",
           "description": "Payment",
-          "balance": "$5,000.00",
+          "balance": "$2117.79",
           "type": "Electronic",
           "category": "Food",
           "note": ""
@@ -172,10 +337,10 @@
         {
           "detail_id": 5,
           "account_parent_id": "1234ca4f4c6102145e4cf0fe", 
-          "amount": "$2,082.79",
+          "amount": "$40",
           "date": "2023-01-01",
           "description": "Payment",
-          "balance": "$5,000.00",
+          "balance": "$2147.79",
           "type": "Electronic",
           "category": "Food",
           "note": ""
@@ -183,10 +348,10 @@
         {
           "detail_id": 6,
           "account_parent_id": "5678ca4f4c6234565e4cf0fe", 
-          "amount": "$2,082.79",
+          "amount": "$50",
           "date": "2023-01-01",
           "description": "Payment",
-          "balance": "$5,000.00",
+          "balance": "$134.30",
           "type": "Electronic",
           "category": "Food",
           "note": ""
@@ -194,10 +359,10 @@
         {
           "detail_id": 7,
           "account_parent_id": "5678ca4f4c6234565e4cf0fe", 
-          "amount": "$2,082.79",
+          "amount": "$10",
           "date": "2023-01-01",
           "description": "Payment",
-          "balance": "$5,000.00",
+          "balance": "$124.30",
           "type": "Electronic",
           "category": "Food",
           "note": ""
@@ -205,10 +370,10 @@
         {
           "detail_id": 8,
           "account_parent_id": "9564ca4f4c5724325e4cf0fe", 
-          "amount": "$2,082.79",
+          "amount": "$30",
           "date": "2023-01-01",
           "description": "Payment",
-          "balance": "$5,000.00",
+          "balance": "$10898.42",
           "type": "Electronic",
           "category": "Food",
           "note": ""
@@ -216,15 +381,206 @@
         {
           "detail_id": 9,
           "account_parent_id": "9564ca4f4c5724325e4cf0fe", 
-          "amount": "$2,082.79",
+          "amount": "$10",
           "date": "2023-01-01",
           "description": "Payment",
-          "balance": "$5,000.00",
+          "balance": "$10878.42",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 10,
+          "account_parent_id": "1234ca4f4c6102145e4cf0fe", 
+          "amount": "$5",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$2082.79",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 11,
+          "account_parent_id": "5678ca4f4c6234565e4cf0fe", 
+          "amount": "$10",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$184.30",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 12,
+          "account_parent_id": "9564ca4f4c5724325e4cf0fe", 
+          "amount": "$20",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$10928.42",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 13,
+          "account_parent_id": "1234ca4f4c6102145e4cf0fe", 
+          "amount": "$5",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$2082.79",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 14,
+          "account_parent_id": "5678ca4f4c6234565e4cf0fe", 
+          "amount": "$10",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$184.30",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 15,
+          "account_parent_id": "9564ca4f4c5724325e4cf0fe", 
+          "amount": "$20",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$10928.42",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 16,
+          "account_parent_id": "1234ca4f4c6102145e4cf0fe", 
+          "amount": "$5",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$2082.79",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 17,
+          "account_parent_id": "5678ca4f4c6234565e4cf0fe", 
+          "amount": "$10",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$184.30",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 18,
+          "account_parent_id": "9564ca4f4c5724325e4cf0fe", 
+          "amount": "$20",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$10928.42",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 19,
+          "account_parent_id": "1234ca4f4c6102145e4cf0fe", 
+          "amount": "$5",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$2082.79",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 20,
+          "account_parent_id": "5678ca4f4c6234565e4cf0fe", 
+          "amount": "$10",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$184.30",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 21,
+          "account_parent_id": "9564ca4f4c5724325e4cf0fe", 
+          "amount": "$20",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$10928.42",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 22,
+          "account_parent_id": "1234ca4f4c6102145e4cf0fe", 
+          "amount": "$5",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$2082.79",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 23,
+          "account_parent_id": "5678ca4f4c6234565e4cf0fe", 
+          "amount": "$10",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$184.30",
+          "type": "Electronic",
+          "category": "Food",
+          "note": ""
+        },
+        {
+          "detail_id": 24,
+          "account_parent_id": "9564ca4f4c5724325e4cf0fe", 
+          "amount": "$20",
+          "date": "2023-01-01",
+          "description": "Payment",
+          "balance": "$10928.42",
           "type": "Electronic",
           "category": "Food",
           "note": ""
         }
       ]
+    }
+  ],
+  "account": [
+    {
+      "user_id": "655f15d9e73e2e5210f67533",
+      "account_id_checking": "1234ca4f4c6103245e4cf0fe",
+      "account_checking_name": "Argent Bank Checking (x8349)",
+      "checking_balance":"$2,082.79", 
+      "account_id_saving": "5678ca4f4c6234578e4cf0fe",
+      "account_saving_name": "Argent Bank Savings (x67124)",
+      "saving_balance": "$10,928.42", 
+      "account_id_credit": "9564ca4f4c5724545e4cf0fe",
+      "account_credit_name": "Argent Bank Credit Card (x5201)",
+      "credit_balance": "$184.30"
+    },
+    {
+      "user_id": "655f15d9e73e2e5210f67534",
+      "account_id_checking": "1234ca4f4c6102145e4cf0fe",
+      "account_checking_name": "Argent Bank Checking (x8349)",
+      "checking_balance":"$2,082.79", 
+      "account_id_saving": "5678ca4f4c6234565e4cf0fe",
+      "account_saving_name": "Argent Bank Savings (x67124)",
+      "saving_balance": "$10,928.42", 
+      "account_id_credit": "9564ca4f4c5724325e4cf0fe",
+      "account_credit_name": "Argent Bank Credit Card (x5201)",
+      "credit_balance": "$184.30"
     }
   ]
 }
