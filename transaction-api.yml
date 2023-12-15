@@ -116,6 +116,8 @@ paths:
     get:
       security:
         - Bearer: []
+      tags:
+        - User Accounts & Transactions
       summary: Récupérer toutes les transactions du mois en cours
       description: Retourne la liste des transactions groupées par compte pour le mois en cours.
       parameters:
@@ -144,6 +146,8 @@ paths:
     get:
       security:
         - Bearer: []
+      tags:
+        - User Accounts & Transactions
       summary: Récupérer les détails d'une transaction
       description: Retourne les détails d'une transaction spécifique.
       parameters:
@@ -174,6 +178,8 @@ paths:
     patch:
       security:
         - Bearer: []
+      tags:
+        - User Accounts & Transactions
       summary: Mettre à jour une transaction
       description: Met à jour les informations d'une transaction spécifique.
       parameters:
