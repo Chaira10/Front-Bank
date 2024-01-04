@@ -31,12 +31,6 @@ export async function GetToken(email, password) {
         // Si le statut est 200, cela signifie que la connexion est réussie
         const token = data.body.token; // Récupération du token depuis le corps de la réponse
         return token; // Retour du token
-        } else if (data.message === "Error: Password is invalid") {
-        // Si le mot de passe est invalide, affichage d'un message d'erreur
-        document.querySelector(".MsgErrorPass").style.display = "block";
-        } else {
-        // Si une autre erreur se produit, affichage d'un message d'erreur
-        document.querySelector(".MsgErrorName").style.display = "block";
         }
     } catch (error) {
         // Gestion des erreurs lors de la requête HTTP
@@ -92,8 +86,6 @@ export async function SaveProfilData( NewFirstName, NewLastName) {
         },
 
     );
-    // console.log('NewFirstName:', NewFirstName);
-    // console.log('NewLastName:', NewLastName);
     // Récupération des données de la réponse
     const data = response.data;
     // console.log(data);

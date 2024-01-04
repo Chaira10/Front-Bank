@@ -1,5 +1,4 @@
 import {createSlice} from '@reduxjs/toolkit';
-
 // Définition du slice de données (dataSlice)
 export const dataSlice = createSlice({
     // Nom du slice

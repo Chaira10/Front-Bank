@@ -4,6 +4,8 @@
     align-items:center;
     margin-bottom: auto; */
     background-color: #E0E6ED;
+    /* padding-bottom: 70px; */
+    /* margin-bottom: 20px; */
     height: 85vh;
 }
 
@@ -43,5 +45,9 @@ font-weight: 600;
 font-weight: 600;
 
 
+}
+
+.accordion-account {
+    margin-bottom: 50px;
 }
 

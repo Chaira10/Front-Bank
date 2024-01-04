@@ -31,7 +31,7 @@ export async function getSousTransactions(userId) {
 // Fonction asynchrone qui effectue une requête HTTP pour récupérer les détails des comptes d'un utilisateur
 export async function getAccount(userId) {
     try {
-        // Utilisation de la bibliothèque Axios pour effectuer une requête GET vers l'endpoint 'http://localhost:3003/accountDetails'
+        // Utilisation de la bibliothèque Axios pour effectuer une requête GET vers l'endpoint 'http://localhost:3003/account'
         const response = await axios.get('http://localhost:3003/account');
         // Récupération des données de la réponse
         const accountData = response.data;

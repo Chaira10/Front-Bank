@@ -37,7 +37,6 @@ useEffect(() => {
       dispatch(setFirstName(UserData.firstName));
       dispatch(setLastName(UserData.lastName));
       dispatch(setId(UserData.id));
-
       // Initialisez les états éditables avec les valeurs de firstName et lastName
       setEditedFirstName(UserData.firstName);
       setEditedLastName(UserData.lastName);
@@ -45,13 +44,10 @@ useEffect(() => {
       console.error("Erreur lors de la récupération des données utilisateur :", error.message);
     }
   };
-
   fetchData();
 }, [dispatch]);
  // Sélection de l'ID utilisateur depuis le state Redux
 const userId = useSelector((state) => state.data.id);
-// console.log(userId);
-  
   // Utilisation du hook useEffect pour récupérer les détails du compte lors du chargement du composant
   useEffect(() => {
     const fetchAccountDetails = async () => {
@@ -155,11 +151,7 @@ console.log(accountDetails);
             </div>
           )}
         </div>
-        <h2 className="sr-only">Accounts</h2>
-
         <div>
-          {/* Titre de la section "Account Details" */}
-          <h2>Account Details</h2>
           {/* Condition pour vérifier si les détails du compte sont disponibles */}
           {accountDetails ? (
     <div>
